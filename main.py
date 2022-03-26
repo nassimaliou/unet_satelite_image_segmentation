@@ -55,7 +55,7 @@ def rgb_to_label(label, class_dict):
 
 
 def main():
-    
+
     for path, subdirs, files in os.walk(data_dir):
         dirname = path.split(os.path.sep)[-1]
         if dirname == 'images':
